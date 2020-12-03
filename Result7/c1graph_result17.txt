@@ -1,0 +1,110 @@
+Timeslot use: 19
+
+Timeslot 1:
+C45 T3 R3
+C20 T8 R5
+C65 T5 R8
+C58 T9 R2
+C3 T4 R4
+
+Timeslot 2:
+C22 T8 R7
+C60 T9 R2
+C40 T3 R8
+C43 T2 R3
+C6 T4 R4
+C42 T6 R5
+
+Timeslot 3:
+C23 T7 R5
+C15 T4 R8
+C10 T8 R1
+C53 T5 R9
+C44 T3 R3
+C37 T9 R2
+C13 T6 R4
+
+Timeslot 4:
+C32 T6 R5
+C66 T9 R2
+C21 T4 R8
+C25 T8 R4
+C47 T3 R3
+
+Timeslot 5:
+C49 T9 R3
+C59 T1 R2
+C24 T2 R4
+C28 T8 R5
+
+Timeslot 6:
+C68 T9 R2
+C46 T3 R3
+C54 T5 R6
+C31 T8 R5
+C1 T10 R4
+
+Timeslot 7:
+C12 T4 R4
+C35 T6 R5
+C52 T9 R3
+C34 T3 R2
+
+Timeslot 8:
+C39 T3 R3
+C26 T8 R4
+C33 T1 R5
+
+Timeslot 9:
+C7 T4 R4
+C50 T6 R3
+
+Timeslot 10:
+C62 T1 R2
+C41 T9 R3
+C19 T8 R4
+
+Timeslot 11:
+C64 T9 R3
+C27 T8 R2
+C5 T7 R4
+C30 T1 R5
+
+Timeslot 12:
+C63 T9 R3
+C67 T5 R2
+C11 T4 R4
+
+Timeslot 13:
+C4 T4 R4
+C61 T5 R3
+
+Timeslot 14:
+C56 T9 R3
+C48 T5 R5
+C29 T8 R2
+C2 T4 R4
+
+Timeslot 15:
+C8 T8 R4
+C51 T9 R3
+C57 T5 R2
+
+Timeslot 16:
+C38 T3 R3
+C14 T4 R4
+
+Timeslot 17:
+C55 T5 R3
+C18 T4 R4
+
+Timeslot 18:
+C17 T4 R3
+C16 T7 R4
+
+Timeslot 19:
+C9 T8 R4
+C36 T6 R3
+
+
+Executed time: 0.03312277793884277

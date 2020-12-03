@@ -1,0 +1,42 @@
+Timeslot use: 9
+
+Timeslot 1:
+C11 T1 R6
+C18 T3 R8
+C5 T4 R7
+
+Timeslot 2:
+C20 T1 R2
+C14 T4 R7
+C13 T3 R1
+
+Timeslot 3:
+C7 T4 R5
+C17 T1 R8
+C4 T3 R1
+
+Timeslot 4:
+C16 T2 R9
+C3 T4 R4
+
+Timeslot 5:
+C12 T3 R9
+C6 T4 R4
+
+Timeslot 6:
+C19 T2 R2
+C8 T4 R6
+C2 T3 R9
+
+Timeslot 7:
+C15 T2 R8
+C10 T4 R5
+
+Timeslot 8:
+C1 T4 R4
+
+Timeslot 9:
+C9 T4 R3
+
+
+Executed time: 0.011034250259399414

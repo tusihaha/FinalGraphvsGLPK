@@ -1,0 +1,111 @@
+GLPSOL: GLPK LP/MIP Solver, v4.57
+Parameter(s) specified in the command line:
+ --model c1gen13.mod
+Reading model section from c1gen13.mod...
+Reading data section from c1gen13.mod...
+3928 lines were read
+Generating first...
+Generating second...
+Generating third...
+Generating cr0...
+Generating cr1...
+Generating cr2...
+Generating cr3...
+Generating cr4...
+Generating cr5...
+Generating cr6...
+Generating cr7...
+Generating cr8...
+Generating cr9...
+Generating ct0...
+Generating ct1...
+Generating ct2...
+Generating ct3...
+Generating ct4...
+Generating ct5...
+Generating ct6...
+Generating ct7...
+Generating ct8...
+Generating ct9...
+Generating obj...
+Model has been successfully generated
+GLPK Integer Optimizer, v4.57
+213 rows, 36400 columns, 184940 non-zeros
+36400 integer variables, all of which are binary
+Preprocessing...
+185 rows, 9436 columns, 28308 non-zeros
+9436 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 185
+Solving LP relaxation...
+GLPK Simplex Optimizer, v4.57
+185 rows, 9436 columns, 28308 non-zeros
+      0: obj =   3.640000000e+02 inf =   9.400e+01 (8)
+    188: obj =   2.020000000e+02 inf =   0.000e+00 (0)
+*   342: obj =   1.790000000e+02 inf =   9.327e-14 (0) 1
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
++   342: mip =     not found yet >=              -inf        (1; 0)
++  1369: >>>>>   1.790000000e+02 >=   1.790000000e+02 < 0.1% (53; 0)
++  1369: mip =   1.790000000e+02 >=     tree is empty   0.0% (0; 105)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   2.2 secs
+Memory used: 56.1 Mb (58799412 bytes)
+result: c:0 r:2 t:2 time:1
+result: c:1 r:5 t:9 time:3
+result: c:2 r:8 t:7 time:1
+result: c:3 r:4 t:9 time:4
+result: c:4 r:4 t:5 time:1
+result: c:5 r:4 t:4 time:2
+result: c:6 r:2 t:5 time:2
+result: c:7 r:2 t:5 time:4
+result: c:8 r:2 t:1 time:5
+result: c:9 r:2 t:1 time:0
+result: c:10 r:7 t:1 time:4
+result: c:11 r:6 t:5 time:0
+result: c:12 r:4 t:5 time:3
+result: c:13 r:4 t:5 time:5
+result: c:14 r:5 t:1 time:1
+result: c:15 r:2 t:1 time:6
+result: c:16 r:2 t:1 time:3
+result: c:17 r:3 t:0 time:4
+result: c:18 r:6 t:5 time:6
+result: c:19 r:7 t:3 time:2
+result: c:20 r:8 t:1 time:2
+result: c:21 r:6 t:7 time:2
+result: c:22 r:6 t:2 time:3
+result: c:23 r:6 t:7 time:4
+result: c:24 r:6 t:7 time:5
+result: c:25 r:5 t:0 time:2
+result: c:26 r:8 t:8 time:5
+result: c:27 r:0 t:7 time:3
+result: c:28 r:8 t:7 time:0
+result: c:29 r:7 t:8 time:0
+result: c:30 r:3 t:8 time:3
+result: c:31 r:5 t:8 time:4
+result: c:32 r:6 t:6 time:1
+result: c:33 r:0 t:8 time:2
+result: c:34 r:1 t:3 time:4
+result: c:35 r:0 t:6 time:4
+result: c:36 r:7 t:8 time:1
+result: c:37 r:0 t:0 time:1
+result: c:38 r:8 t:0 time:3
+result: c:39 r:0 t:4 time:0
+result: c:40 r:3 t:2 time:0
+result: c:41 r:0 t:0 time:5
+result: c:42 r:4 t:0 time:0
+result: c:43 r:3 t:6 time:2
+result: c:44 r:7 t:6 time:3
+result: c:45 r:1 t:3 time:0
+result: c:46 r:1 t:2 time:2
+result: c:47 r:1 t:4 time:3
+result: c:48 r:5 t:6 time:0
+result: c:49 r:8 t:4 time:4
+result: c:50 r:1 t:3 time:1
+result: c:51 r:3 t:4 time:1
+Model has been successfully processed
+
+Timeslot used: 7

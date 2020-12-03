@@ -1,0 +1,266 @@
+GLPSOL: GLPK LP/MIP Solver, v4.57
+Parameter(s) specified in the command line:
+ --model c4gen25.mod
+Reading model section from c4gen25.mod...
+Reading data section from c4gen25.mod...
+21779 lines were read
+Generating first...
+Generating second...
+Generating third...
+Generating cr0...
+Generating cr1...
+Generating cr2...
+Generating cr3...
+Generating cr4...
+Generating cr5...
+Generating cr6...
+Generating cr7...
+Generating cr8...
+Generating cr9...
+Generating cr10...
+Generating cr11...
+Generating cr12...
+Generating cr13...
+Generating cr14...
+Generating cr15...
+Generating cr16...
+Generating cr17...
+Generating cr18...
+Generating cr19...
+Generating cr20...
+Generating cr22...
+Generating cr23...
+Generating cr24...
+Generating cr25...
+Generating cr26...
+Generating cr27...
+Generating cr28...
+Generating cr29...
+Generating ct0...
+Generating ct1...
+Generating ct2...
+Generating ct3...
+Generating ct4...
+Generating ct5...
+Generating ct6...
+Generating ct7...
+Generating ct8...
+Generating ct9...
+Generating ct10...
+Generating ct11...
+Generating ct12...
+Generating ct13...
+Generating ct14...
+Generating ct15...
+Generating ct16...
+Generating ct17...
+Generating ct18...
+Generating ct19...
+Generating ct20...
+Generating ct21...
+Generating ct22...
+Generating ct23...
+Generating ct24...
+Generating ct25...
+Generating ct26...
+Generating ct27...
+Generating ct28...
+Generating ct29...
+Generating obj...
+Model has been successfully generated
+GLPK Integer Optimizer, v4.57
+580 rows, 630000 columns, 3181080 non-zeros
+630000 integer variables, all of which are binary
+Preprocessing...
+506 rows, 186109 columns, 558320 non-zeros
+186109 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 506
+Solving LP relaxation...
+GLPK Simplex Optimizer, v4.57
+506 rows, 186109 columns, 558320 non-zeros
+      0: obj =   7.000000000e+02 inf =   1.890e+02 (7)
+    385: obj =   4.010000000e+02 inf =   9.433e-15 (0)
+*   500: obj =   3.470000000e+02 inf =   6.992e-15 (52545) 1
+*  1000: obj =   2.590000000e+02 inf =   9.394e-15 (57934) 4
+*  1500: obj =   2.345000000e+02 inf =   3.290e-15 (29331) 3
+*  1682: obj =   2.320000000e+02 inf =   1.594e-14 (0) 1
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
++  1682: mip =     not found yet >=              -inf        (1; 0)
++  1824: mip =     not found yet >=   2.320000000e+02        (3; 0)
++  2002: mip =     not found yet >=   2.320000000e+02        (5; 0)
++  2095: mip =     not found yet >=   2.320000000e+02        (7; 0)
++  2179: mip =     not found yet >=   2.320000000e+02        (9; 0)
++  2209: mip =     not found yet >=   2.320000000e+02        (11; 0)
++  2211: mip =     not found yet >=   2.320000000e+02        (13; 0)
++  2246: mip =     not found yet >=   2.320000000e+02        (15; 0)
+Time used: 64.2 secs.  Memory used: 752.1 Mb.
++  2320: mip =     not found yet >=   2.320000000e+02        (17; 0)
++  2386: mip =     not found yet >=   2.320000000e+02        (19; 0)
++  2451: mip =     not found yet >=   2.320000000e+02        (21; 0)
++  2508: mip =     not found yet >=   2.320000000e+02        (23; 0)
++  2561: mip =     not found yet >=   2.320000000e+02        (25; 0)
++  2601: mip =     not found yet >=   2.320000000e+02        (27; 0)
++  2620: mip =     not found yet >=   2.320000000e+02        (29; 0)
+Time used: 124.9 secs.  Memory used: 753.3 Mb.
++  2659: mip =     not found yet >=   2.320000000e+02        (31; 0)
++  2701: mip =     not found yet >=   2.320000000e+02        (33; 0)
++  2735: mip =     not found yet >=   2.320000000e+02        (35; 0)
++  2771: mip =     not found yet >=   2.320000000e+02        (37; 0)
++  2818: mip =     not found yet >=   2.320000000e+02        (39; 0)
++  2857: mip =     not found yet >=   2.320000000e+02        (41; 0)
++  2941: mip =     not found yet >=   2.320000000e+02        (43; 0)
++  2977: mip =     not found yet >=   2.320000000e+02        (45; 0)
+Time used: 185.7 secs.  Memory used: 755.0 Mb.
++  3038: mip =     not found yet >=   2.320000000e+02        (47; 0)
++  3102: mip =     not found yet >=   2.320000000e+02        (49; 0)
++  3168: mip =     not found yet >=   2.320000000e+02        (51; 0)
++  3213: mip =     not found yet >=   2.320000000e+02        (53; 0)
++  3254: mip =     not found yet >=   2.320000000e+02        (55; 0)
++  3297: mip =     not found yet >=   2.320000000e+02        (57; 0)
++  3368: mip =     not found yet >=   2.320000000e+02        (59; 0)
++  3401: mip =     not found yet >=   2.320000000e+02        (61; 0)
++  3435: mip =     not found yet >=   2.320000000e+02        (63; 0)
+Time used: 249.3 secs.  Memory used: 756.3 Mb.
++  3496: mip =     not found yet >=   2.320000000e+02        (65; 0)
++  3530: mip =     not found yet >=   2.320000000e+02        (67; 0)
++  3575: mip =     not found yet >=   2.320000000e+02        (69; 0)
++  3610: mip =     not found yet >=   2.320000000e+02        (71; 0)
++  3628: mip =     not found yet >=   2.320000000e+02        (73; 0)
++  3687: mip =     not found yet >=   2.320000000e+02        (75; 0)
++  3745: mip =     not found yet >=   2.320000000e+02        (77; 0)
++  3771: mip =     not found yet >=   2.320000000e+02        (79; 0)
++  3805: mip =     not found yet >=   2.320000000e+02        (81; 0)
++  3820: mip =     not found yet >=   2.320000000e+02        (83; 0)
+Time used: 310.0 secs.  Memory used: 757.2 Mb.
++  3899: mip =     not found yet >=   2.320000000e+02        (86; 0)
++  3949: mip =     not found yet >=   2.320000000e+02        (89; 0)
++  4010: mip =     not found yet >=   2.320000000e+02        (92; 0)
++  4047: mip =     not found yet >=   2.320000000e+02        (95; 0)
++  4118: mip =     not found yet >=   2.320000000e+02        (98; 0)
++  4185: mip =     not found yet >=   2.320000000e+02        (101; 0)
++  4233: mip =     not found yet >=   2.320000000e+02        (104; 0)
++  4268: mip =     not found yet >=   2.320000000e+02        (107; 0)
++  4326: mip =     not found yet >=   2.320000000e+02        (110; 0)
++  4387: mip =     not found yet >=   2.320000000e+02        (113; 0)
+Time used: 371.3 secs.  Memory used: 758.5 Mb.
++  4468: mip =     not found yet >=   2.320000000e+02        (117; 0)
++  4523: mip =     not found yet >=   2.320000000e+02        (121; 0)
++  4596: mip =     not found yet >=   2.320000000e+02        (125; 0)
++  4666: mip =     not found yet >=   2.320000000e+02        (129; 0)
++  4765: mip =     not found yet >=   2.320000000e+02        (134; 0)
++  4838: mip =     not found yet >=   2.320000000e+02        (139; 0)
++  4940: mip =     not found yet >=   2.320000000e+02        (145; 0)
++  4999: mip =     not found yet >=   2.320000000e+02        (153; 0)
++  5043: >>>>>   2.320000000e+02 >=   2.320000000e+02   0.0% (155; 0)
++  5043: mip =   2.320000000e+02 >=     tree is empty   0.0% (0; 309)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   432.5 secs
+Memory used: 966.0 Mb (1012873204 bytes)
+result: c:0 r:21 t:29 time:1
+result: c:1 r:21 t:14 time:6
+result: c:2 r:21 t:22 time:3
+result: c:3 r:6 t:4 time:0
+result: c:4 r:21 t:25 time:2
+result: c:5 r:3 t:14 time:0
+result: c:6 r:3 t:16 time:2
+result: c:7 r:27 t:13 time:0
+result: c:8 r:21 t:24 time:0
+result: c:9 r:3 t:13 time:3
+result: c:10 r:25 t:16 time:1
+result: c:11 r:21 t:7 time:5
+result: c:12 r:21 t:16 time:4
+result: c:13 r:18 t:14 time:3
+result: c:14 r:3 t:6 time:1
+result: c:15 r:11 t:16 time:3
+result: c:16 r:17 t:25 time:0
+result: c:17 r:18 t:16 time:0
+result: c:18 r:13 t:13 time:1
+result: c:19 r:10 t:5 time:0
+result: c:20 r:10 t:5 time:1
+result: c:21 r:0 t:5 time:3
+result: c:22 r:5 t:6 time:2
+result: c:23 r:11 t:28 time:1
+result: c:24 r:11 t:14 time:2
+result: c:25 r:25 t:20 time:2
+result: c:26 r:8 t:25 time:3
+result: c:27 r:28 t:5 time:2
+result: c:28 r:1 t:6 time:3
+result: c:29 r:15 t:3 time:2
+result: c:30 r:10 t:21 time:3
+result: c:31 r:1 t:13 time:2
+result: c:32 r:0 t:0 time:0
+result: c:33 r:1 t:6 time:0
+result: c:34 r:15 t:21 time:0
+result: c:35 r:0 t:0 time:1
+result: c:36 r:16 t:21 time:2
+result: c:37 r:11 t:19 time:0
+result: c:38 r:18 t:0 time:2
+result: c:39 r:24 t:26 time:0
+result: c:40 r:24 t:17 time:2
+result: c:41 r:23 t:18 time:2
+result: c:42 r:9 t:19 time:2
+result: c:43 r:8 t:8 time:0
+result: c:44 r:12 t:17 time:0
+result: c:45 r:22 t:15 time:1
+result: c:46 r:22 t:28 time:2
+result: c:47 r:4 t:14 time:1
+result: c:48 r:18 t:25 time:1
+result: c:49 r:7 t:26 time:1
+result: c:50 r:0 t:15 time:2
+result: c:51 r:22 t:18 time:0
+result: c:52 r:10 t:9 time:2
+result: c:53 r:24 t:22 time:1
+result: c:54 r:8 t:21 time:1
+result: c:55 r:14 t:8 time:2
+result: c:56 r:6 t:4 time:3
+result: c:57 r:25 t:27 time:0
+result: c:58 r:26 t:17 time:1
+result: c:59 r:20 t:22 time:2
+result: c:60 r:20 t:19 time:1
+result: c:61 r:17 t:8 time:1
+result: c:62 r:15 t:12 time:3
+result: c:63 r:1 t:4 time:1
+result: c:64 r:27 t:26 time:2
+result: c:65 r:28 t:18 time:1
+result: c:66 r:23 t:12 time:1
+result: c:67 r:12 t:4 time:2
+result: c:68 r:15 t:7 time:1
+result: c:69 r:2 t:11 time:2
+result: c:70 r:26 t:22 time:0
+result: c:71 r:16 t:20 time:0
+result: c:72 r:8 t:1 time:2
+result: c:73 r:14 t:2 time:0
+result: c:74 r:17 t:10 time:2
+result: c:75 r:27 t:10 time:1
+result: c:76 r:19 t:15 time:0
+result: c:77 r:2 t:9 time:1
+result: c:78 r:6 t:27 time:2
+result: c:79 r:5 t:3 time:0
+result: c:80 r:23 t:9 time:0
+result: c:81 r:16 t:2 time:1
+result: c:82 r:7 t:7 time:0
+result: c:83 r:19 t:11 time:1
+result: c:84 r:4 t:23 time:2
+result: c:85 r:13 t:7 time:2
+result: c:86 r:2 t:11 time:0
+result: c:87 r:6 t:20 time:1
+result: c:88 r:28 t:1 time:0
+result: c:89 r:7 t:12 time:2
+result: c:90 r:13 t:12 time:0
+result: c:91 r:9 t:28 time:0
+result: c:92 r:26 t:2 time:2
+result: c:93 r:20 t:23 time:0
+result: c:94 r:19 t:24 time:2
+result: c:95 r:9 t:1 time:1
+result: c:96 r:5 t:3 time:1
+result: c:97 r:4 t:10 time:0
+result: c:98 r:12 t:23 time:1
+result: c:99 r:14 t:24 time:1
+Model has been successfully processed
+
+Timeslot used: 7

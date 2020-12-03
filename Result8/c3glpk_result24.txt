@@ -1,0 +1,221 @@
+GLPSOL: GLPK LP/MIP Solver, v4.57
+Parameter(s) specified in the command line:
+ --model c3gen24.mod
+Reading model section from c3gen24.mod...
+Reading data section from c3gen24.mod...
+14014 lines were read
+Generating first...
+Generating second...
+Generating third...
+Generating cr0...
+Generating cr1...
+Generating cr2...
+Generating cr3...
+Generating cr4...
+Generating cr5...
+Generating cr6...
+Generating cr7...
+Generating cr8...
+Generating cr9...
+Generating cr10...
+Generating cr11...
+Generating cr12...
+Generating cr13...
+Generating cr14...
+Generating cr15...
+Generating cr16...
+Generating cr17...
+Generating cr18...
+Generating cr19...
+Generating cr20...
+Generating cr21...
+Generating cr22...
+Generating cr23...
+Generating cr24...
+Generating ct0...
+Generating ct2...
+Generating ct3...
+Generating ct4...
+Generating ct5...
+Generating ct6...
+Generating ct7...
+Generating ct8...
+Generating ct9...
+Generating ct10...
+Generating ct11...
+Generating ct12...
+Generating ct13...
+Generating ct14...
+Generating ct15...
+Generating ct16...
+Generating ct17...
+Generating ct18...
+Generating ct19...
+Generating obj...
+Model has been successfully generated
+GLPK Integer Optimizer, v4.57
+456 rows, 336000 columns, 1653470 non-zeros
+336000 integer variables, all of which are binary
+Preprocessing...
+397 rows, 124887 columns, 374654 non-zeros
+124887 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 397
+Solving LP relaxation...
+GLPK Simplex Optimizer, v4.57
+397 rows, 124887 columns, 374654 non-zeros
+      0: obj =   6.720000000e+02 inf =   1.800e+02 (7)
+    373: obj =   3.850000000e+02 inf =   2.051e-15 (0)
+*   500: obj =   3.260000000e+02 inf =   1.277e-15 (11926) 1
+*   789: obj =   3.020000000e+02 inf =   1.027e-14 (0) 2
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
++   789: mip =     not found yet >=              -inf        (1; 0)
++  1170: mip =     not found yet >=   3.020000000e+02        (4; 0)
++  1265: mip =     not found yet >=   3.020000000e+02        (6; 0)
++  1341: mip =     not found yet >=   3.020000000e+02        (8; 0)
++  1412: mip =     not found yet >=   3.020000000e+02        (10; 0)
++  1480: mip =     not found yet >=   3.020000000e+02        (12; 0)
++  1556: mip =     not found yet >=   3.020000000e+02        (14; 0)
++  1653: mip =     not found yet >=   3.020000000e+02        (16; 0)
++  1696: mip =     not found yet >=   3.020000000e+02        (18; 0)
++  1751: mip =     not found yet >=   3.020000000e+02        (20; 0)
++  1783: mip =     not found yet >=   3.020000000e+02        (22; 0)
+Time used: 61.8 secs.  Memory used: 407.5 Mb.
++  1802: mip =     not found yet >=   3.020000000e+02        (24; 0)
++  1834: mip =     not found yet >=   3.020000000e+02        (26; 0)
++  1867: mip =     not found yet >=   3.020000000e+02        (28; 0)
++  1896: mip =     not found yet >=   3.020000000e+02        (30; 0)
++  1930: mip =     not found yet >=   3.020000000e+02        (32; 0)
++  1967: mip =     not found yet >=   3.020000000e+02        (34; 0)
++  1990: mip =     not found yet >=   3.020000000e+02        (36; 0)
++  2013: mip =     not found yet >=   3.020000000e+02        (38; 0)
++  2068: mip =     not found yet >=   3.020000000e+02        (41; 0)
++  2117: mip =     not found yet >=   3.020000000e+02        (44; 0)
+Time used: 122.8 secs.  Memory used: 408.7 Mb.
++  2157: mip =     not found yet >=   3.020000000e+02        (47; 0)
++  2220: mip =     not found yet >=   3.020000000e+02        (50; 0)
++  2270: mip =     not found yet >=   3.020000000e+02        (53; 0)
++  2320: mip =     not found yet >=   3.020000000e+02        (56; 0)
++  2385: mip =     not found yet >=   3.020000000e+02        (59; 0)
++  2460: mip =     not found yet >=   3.020000000e+02        (62; 0)
++  2519: mip =     not found yet >=   3.020000000e+02        (65; 0)
++  2577: mip =     not found yet >=   3.020000000e+02        (68; 0)
++  2656: mip =     not found yet >=   3.020000000e+02        (72; 0)
+Time used: 183.8 secs.  Memory used: 410.2 Mb.
++  2699: mip =     not found yet >=   3.020000000e+02        (76; 0)
++  2738: mip =     not found yet >=   3.020000000e+02        (81; 0)
++  2792: mip =     not found yet >=   3.020000000e+02        (85; 0)
++  2838: mip =     not found yet >=   3.020000000e+02        (89; 0)
++  2897: mip =     not found yet >=   3.020000000e+02        (94; 0)
++  2946: mip =     not found yet >=   3.020000000e+02        (99; 0)
++  2999: mip =     not found yet >=   3.020000000e+02        (104; 0)
++  3060: mip =     not found yet >=   3.020000000e+02        (111; 0)
++  3177: mip =     not found yet >=   3.020000000e+02        (122; 0)
++  3216: >>>>>   3.020000000e+02 >=   3.020000000e+02   0.0% (126; 0)
++  3216: mip =   3.020000000e+02 >=     tree is empty   0.0% (0; 251)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   236.2 secs
+Memory used: 515.7 Mb (540722280 bytes)
+result: c:0 r:24 t:1 time:0
+result: c:1 r:6 t:1 time:6
+result: c:2 r:21 t:15 time:1
+result: c:3 r:21 t:1 time:2
+result: c:4 r:10 t:1 time:4
+result: c:5 r:21 t:17 time:4
+result: c:6 r:6 t:1 time:3
+result: c:7 r:14 t:1 time:1
+result: c:8 r:21 t:11 time:3
+result: c:9 r:21 t:1 time:5
+result: c:10 r:4 t:4 time:5
+result: c:11 r:6 t:5 time:5
+result: c:12 r:6 t:3 time:2
+result: c:13 r:4 t:5 time:1
+result: c:14 r:6 t:4 time:1
+result: c:15 r:4 t:4 time:2
+result: c:16 r:4 t:4 time:3
+result: c:17 r:18 t:15 time:3
+result: c:18 r:6 t:5 time:0
+result: c:19 r:4 t:4 time:0
+result: c:20 r:3 t:11 time:4
+result: c:21 r:1 t:5 time:2
+result: c:22 r:14 t:15 time:4
+result: c:23 r:6 t:5 time:4
+result: c:24 r:9 t:11 time:5
+result: c:25 r:20 t:14 time:0
+result: c:26 r:16 t:11 time:1
+result: c:27 r:7 t:6 time:1
+result: c:28 r:12 t:6 time:2
+result: c:29 r:12 t:6 time:3
+result: c:30 r:10 t:3 time:0
+result: c:31 r:12 t:6 time:4
+result: c:32 r:20 t:2 time:3
+result: c:33 r:16 t:11 time:2
+result: c:34 r:16 t:11 time:0
+result: c:35 r:10 t:18 time:3
+result: c:36 r:10 t:14 time:1
+result: c:37 r:19 t:4 time:4
+result: c:38 r:3 t:9 time:3
+result: c:39 r:3 t:2 time:2
+result: c:40 r:5 t:18 time:4
+result: c:41 r:10 t:15 time:2
+result: c:42 r:5 t:9 time:2
+result: c:43 r:13 t:14 time:4
+result: c:44 r:4 t:9 time:4
+result: c:45 r:0 t:2 time:1
+result: c:46 r:15 t:12 time:2
+result: c:47 r:0 t:7 time:0
+result: c:48 r:0 t:13 time:3
+result: c:49 r:0 t:7 time:2
+result: c:50 r:18 t:13 time:0
+result: c:51 r:3 t:9 time:0
+result: c:52 r:1 t:7 time:1
+result: c:53 r:11 t:18 time:2
+result: c:54 r:14 t:14 time:3
+result: c:55 r:2 t:10 time:0
+result: c:56 r:2 t:3 time:3
+result: c:57 r:17 t:17 time:3
+result: c:58 r:11 t:13 time:1
+result: c:59 r:17 t:8 time:4
+result: c:60 r:5 t:8 time:0
+result: c:61 r:18 t:10 time:2
+result: c:62 r:21 t:2 time:0
+result: c:63 r:16 t:7 time:3
+result: c:64 r:19 t:10 time:3
+result: c:65 r:16 t:2 time:4
+result: c:66 r:15 t:9 time:1
+result: c:67 r:14 t:13 time:2
+result: c:68 r:7 t:17 time:0
+result: c:69 r:12 t:12 time:0
+result: c:70 r:2 t:14 time:2
+result: c:71 r:2 t:8 time:1
+result: c:72 r:9 t:10 time:1
+result: c:73 r:13 t:8 time:2
+result: c:74 r:14 t:15 time:0
+result: c:75 r:13 t:18 time:0
+result: c:76 r:8 t:18 time:1
+result: c:77 r:5 t:17 time:1
+result: c:78 r:13 t:12 time:1
+result: c:79 r:11 t:12 time:3
+result: c:80 r:8 t:8 time:3
+result: c:81 r:7 t:16 time:3
+result: c:82 r:3 t:3 time:1
+result: c:83 r:12 t:16 time:1
+result: c:84 r:1 t:10 time:4
+result: c:85 r:11 t:13 time:4
+result: c:86 r:9 t:3 time:4
+result: c:87 r:8 t:16 time:4
+result: c:88 r:2 t:7 time:4
+result: c:89 r:8 t:17 time:2
+result: c:90 r:1 t:5 time:3
+result: c:91 r:9 t:16 time:2
+result: c:92 r:9 t:6 time:0
+result: c:93 r:0 t:12 time:4
+result: c:94 r:11 t:0 time:0
+result: c:95 r:8 t:16 time:0
+Model has been successfully processed
+
+Timeslot used: 7

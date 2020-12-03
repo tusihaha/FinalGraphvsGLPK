@@ -1,0 +1,147 @@
+GLPSOL: GLPK LP/MIP Solver, v4.57
+Parameter(s) specified in the command line:
+ --model c2gen22.mod
+Reading model section from c2gen22.mod...
+Reading data section from c2gen22.mod...
+21578 lines were read
+Generating first...
+Generating second...
+Generating third...
+Generating cr0...
+Generating cr1...
+Generating cr2...
+Generating cr3...
+Generating cr4...
+Generating cr5...
+Generating cr6...
+Generating cr7...
+Generating cr8...
+Generating cr9...
+Generating cr10...
+Generating cr11...
+Generating cr12...
+Generating cr13...
+Generating cr14...
+Generating ct0...
+Generating ct1...
+Generating ct2...
+Generating ct3...
+Generating ct4...
+Generating obj...
+Model has been successfully generated
+GLPK Integer Optimizer, v4.57
+1069 rows, 316800 columns, 1634880 non-zeros
+316800 integer variables, all of which are binary
+Preprocessing...
+1000 rows, 59184 columns, 177552 non-zeros
+59184 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 1000
+Solving LP relaxation...
+GLPK Simplex Optimizer, v4.57
+1000 rows, 59184 columns, 177552 non-zeros
+      0: obj =   4.224000000e+03 inf =   1.680e+02 (6)
+    311: obj =   1.998000000e+03 inf =   0.000e+00 (0)
+*   470: obj =   1.468000000e+03 inf =   0.000e+00 (0) 1
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
++   470: mip =     not found yet >=              -inf        (1; 0)
++   508: >>>>>   1.468000000e+03 >=   1.468000000e+03   0.0% (6; 0)
++   508: mip =   1.468000000e+03 >=     tree is empty   0.0% (0; 11)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   3.2 secs
+Memory used: 483.1 Mb (506548512 bytes)
+result: c:0 r:9 t:4 time:0
+result: c:1 r:9 t:4 time:1
+result: c:2 r:9 t:0 time:2
+result: c:3 r:4 t:4 time:45
+result: c:4 r:9 t:4 time:3
+result: c:5 r:4 t:4 time:2
+result: c:6 r:6 t:4 time:4
+result: c:7 r:6 t:4 time:5
+result: c:8 r:6 t:4 time:6
+result: c:9 r:6 t:4 time:7
+result: c:10 r:6 t:4 time:8
+result: c:11 r:6 t:4 time:9
+result: c:12 r:6 t:4 time:10
+result: c:13 r:6 t:4 time:11
+result: c:14 r:6 t:4 time:12
+result: c:15 r:4 t:4 time:13
+result: c:16 r:6 t:4 time:14
+result: c:17 r:3 t:4 time:15
+result: c:18 r:4 t:4 time:46
+result: c:19 r:4 t:4 time:16
+result: c:20 r:9 t:4 time:47
+result: c:21 r:0 t:4 time:17
+result: c:22 r:1 t:4 time:18
+result: c:23 r:0 t:4 time:19
+result: c:24 r:0 t:4 time:20
+result: c:25 r:1 t:4 time:21
+result: c:26 r:0 t:4 time:22
+result: c:27 r:0 t:4 time:23
+result: c:28 r:0 t:4 time:24
+result: c:29 r:0 t:4 time:25
+result: c:30 r:0 t:4 time:26
+result: c:31 r:0 t:4 time:27
+result: c:32 r:0 t:4 time:28
+result: c:33 r:0 t:4 time:29
+result: c:34 r:0 t:4 time:30
+result: c:35 r:0 t:4 time:31
+result: c:36 r:0 t:4 time:32
+result: c:37 r:0 t:4 time:33
+result: c:38 r:0 t:4 time:34
+result: c:39 r:0 t:0 time:0
+result: c:40 r:0 t:0 time:1
+result: c:41 r:0 t:4 time:35
+result: c:42 r:0 t:4 time:36
+result: c:43 r:0 t:4 time:37
+result: c:44 r:0 t:0 time:3
+result: c:45 r:0 t:4 time:38
+result: c:46 r:0 t:4 time:39
+result: c:47 r:0 t:4 time:40
+result: c:48 r:0 t:4 time:41
+result: c:49 r:0 t:4 time:42
+result: c:50 r:4 t:2 time:0
+result: c:51 r:0 t:4 time:43
+result: c:52 r:0 t:4 time:44
+result: c:53 r:0 t:3 time:2
+result: c:54 r:0 t:0 time:4
+result: c:55 r:0 t:0 time:5
+result: c:56 r:0 t:0 time:6
+result: c:57 r:0 t:0 time:7
+result: c:58 r:0 t:0 time:8
+result: c:59 r:0 t:0 time:13
+result: c:60 r:0 t:0 time:9
+result: c:61 r:0 t:0 time:10
+result: c:62 r:0 t:0 time:11
+result: c:63 r:0 t:0 time:12
+result: c:64 r:2 t:2 time:2
+result: c:65 r:0 t:0 time:14
+result: c:66 r:1 t:3 time:15
+result: c:67 r:1 t:3 time:14
+result: c:68 r:1 t:3 time:13
+result: c:69 r:0 t:0 time:15
+result: c:70 r:1 t:3 time:6
+result: c:71 r:1 t:3 time:5
+result: c:72 r:1 t:3 time:4
+result: c:73 r:1 t:1 time:1
+result: c:74 r:2 t:3 time:0
+result: c:75 r:1 t:3 time:12
+result: c:76 r:1 t:3 time:10
+result: c:77 r:3 t:2 time:1
+result: c:78 r:1 t:3 time:9
+result: c:79 r:1 t:3 time:11
+result: c:80 r:1 t:3 time:8
+result: c:81 r:1 t:3 time:3
+result: c:82 r:1 t:3 time:7
+result: c:83 r:2 t:3 time:1
+result: c:84 r:1 t:1 time:2
+result: c:85 r:3 t:2 time:3
+result: c:86 r:2 t:1 time:3
+result: c:87 r:1 t:1 time:0
+Model has been successfully processed
+
+Timeslot used: 48

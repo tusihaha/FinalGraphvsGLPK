@@ -1,0 +1,14 @@
+Timeslot use: 1
+
+Timeslot 1:
+C1 T2 R1
+C2 T5 R8
+C6 T9 R2
+C7 T3 R4
+C3 T1 R3
+C4 T8 R7
+C8 T7 R5
+C5 T6 R9
+
+
+Executed time: 0.0007054805755615234
